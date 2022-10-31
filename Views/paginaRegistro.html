@@ -13,24 +13,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- Styles -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/nosotros.css">
     <!-- Title -->
-    <title>Nosotros</title>
+    <title>Destino Córdoba</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">Inicio</a>
+                <a class="navbar-brand" href="../index.html">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
-                    <li class="nav-item"><a class="nav-link" href="destinos.html">Destinos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="experiencias.html">Experiencias</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gastonomia.html">Gastronomia</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../Views/nosotros.html">Nosotros</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="./destinos.html">Destinos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./experiencias.html">Experiencias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./gastonomia.html">Gastronomia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li> 
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2 w-50" type="search" placeholder="Search" aria-label="Search">
@@ -43,32 +42,62 @@
             </div>
         </nav>
     </header>
-    <main class="container-fluid">
-        <img id="nosotros-img" src="../assets/img/nosotros1.jpg" class="img-fluid rounded-pill mx-auto d-block" alt="Exploradores">
-        <div class="container d-flex flex-column bg-dark text-white rounded w-50">
-            <h1 class="text-center">Sobre Nosotros</h1>
-            <h4 class="text-center">Nos encanta conocer lugares nuevos</h4>
-            <p class="container-fluid ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente odit quis aliquid, fugit quisquam, deleniti minus distinctio numquam ut eligendi explicabo rem maiores dolor! Eos commodi nemo ut voluptatibus nam.
-            Optio explicabo deleniti vel quaerat rerum recusandae dignissimos mollitia eos quibusdam porro? Ducimus illo consequatur rerum velit repellendus esse sunt veniam odio dolore, officia accusamus impedit iste. Reiciendis, nobis deserunt?
-            Similique molestias sit fuga, placeat laborum inventore perferendis facilis dolor delectus est excepturi laudantium non adipisci natus sapiente. Autem, voluptatum! Commodi doloribus sit eveniet odit, placeat sapiente atque saepe hic.
-            </p>
-        </div>
+    <main class="main">
+        <div class="form">
+            <h2>Destino Córdoba</h2>
+            <h4>Formulario de registro</h4>
+
+            <form action="" class="form" method="post">
+
+                        <div class="form-field">
+                    <label for="name">Nombre completo</label>
+
+                    <input type="text" class="form-control" id="name">
+                </div>
+
+                        <div class="form-field">
+                    <label for="mail">Correo electrónico</label>
+                    <input type="email" class="form-control" id="mail" name="user_mail">
+                </div>
+
+                        <div class="form-field">
+                        <label for="password">Contraseña</label>
+                        <input type="text" class="form-control" id="password" name="user_password">
+                    </div>
+
+                        <div class="form-field">
+                        <label for="password_repeat">Repetir contraseña</label>
+                        <input type="text" class="form-control" id="password_repeat" name="user_password_repeat">
+                    </div>
+
+                        <div class="form-field">
+                        <label for="nim">Numero de telefono</label>
+                        <input type="text" class="form-control" id="nim" name="user_nim">
+                    </div>
+
+                <button type="button" class="btn btn-dark">Registrarme</button>
+            </form>
+
+    </div>
         
     </main>
 
 
-    <footer class="footer text-dark d-flex flex-column">
+    
+    <footer class="footer d-flex flex-column">
 
         <ul class="d-flex justify-content-center gap-3 align-items-center">
-            <li class="list-item "><i class="bi bi-facebook"></i></li>
-            <li class="list-item "><i class="bi bi-whatsapp"></i></li>
-            <li class="list-item "><i class="bi bi-instagram"></i></li>
+            <li class="list-item text-dark"><i class="bi bi-facebook"></i></li>
+            <li class="list-item text-dark"><i class="bi bi-whatsapp"></i></li>
+            <li class="list-item text-dark"><i class="bi bi-instagram"></i></li>
         </ul>
-        <p class="align-self-center">2022 - MiniDevs</p>
+        <p class="align-self-center text-dark">2022 - MiniDevs</p>
 
     </footer>
+
+
+
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-
 </body>
 </html>
