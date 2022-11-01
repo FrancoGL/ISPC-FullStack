@@ -4,16 +4,18 @@ let image = document.getElementById("c-img")
 let number = 1
 
 function nextHandler(){
+    console.log(number)
 
     if (number < 4){
         number += 1;
-        image.src=`/front-end/assets/img/details${number}.jpg`
+        image.src=`../assets/img/details${number}.jpg`
     } 
 }
 function prevHandler(){
     if (number > 0 && number != 1){
         number -= 1;
-        image.src=`/front-end/assets/img/details${number}.jpg`
+        image.src=`../assets/img/details${number}.jpg`
+
     }
 }
 
