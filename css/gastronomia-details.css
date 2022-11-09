@@ -1,0 +1,22 @@
+.arrow-icon{
+    font-size: 40px;
+
+}
+
+.user-avatar{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.form-comments{
+    padding: 2rem;
+    margin: 2rem;
+    gap: 1rem;
+}
+
+.form-comments > textarea{
+    resize: none;
+    height: 100px;
+    
+}
